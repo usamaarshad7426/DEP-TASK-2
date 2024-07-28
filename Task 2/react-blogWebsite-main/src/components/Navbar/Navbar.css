@@ -1,0 +1,51 @@
+:root {
+    --bg-grey: #34495e;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-grey);
+    height: 70px;
+    padding: 0px 80px;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-brand {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.menu .menu-btn {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn1 {
+    font-weight: 500;
+    background-color: #f1c40f;
+    color: #fff;
+    transition: all 0.4s ease;
+}
+
+.btn2 {
+    font-weight: 500;
+    background-color: #3498db;
+    color: #fff;
+    transition: all 0.4s ease;
+}
+
+.menu-btn:hover {
+    background-color: rgb(199, 14, 91);
+}
